@@ -109,6 +109,26 @@ print(s.find("e to ")) #6
 print(s.find(" "))#7
 print(s.count("o")) #3
 
+#Converting functions
+s1 = s.casefold()
+print(s1)
+
+s2 =s.title()
+print(s2)
+s3 = s.upper()
+print(s3)
+s4 = s.lower()
+print(s4)
+s5 = s.swapcase() # lower to upper and upper to lower
+print(s5)
+s6 = s.replace("to","TO")
+print(s6)
+
+#Reverse a string
+
+
+
+
 
 
 
