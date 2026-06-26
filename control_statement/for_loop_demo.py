@@ -33,3 +33,12 @@ for i in range(1, 10,1):
     if i%2!=0:
         print(i)
 
+print("    The 5-times table")
+for i in range(1,101,1):
+    if i%5==0:
+        print(i)
+
+print("OR")
+for i in range(5,101,5):
+    print(i)
+
