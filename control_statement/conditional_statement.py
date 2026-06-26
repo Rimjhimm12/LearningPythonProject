@@ -67,7 +67,6 @@ elif week_number ==7:
 else:
     print("Choose a number between 1 and 7.")
 
-#Check whether the given number is positive or negative.
-#Find the largest number between two numbers.
-#Find the largest number among three numbers.
-#Print the correct browser depending on the input value. 
+
+
+#Print the correct browser depending on the input value.

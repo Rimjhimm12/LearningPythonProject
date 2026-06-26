@@ -1,5 +1,5 @@
 ############# Example 1 #########
-from multiprocessing.util import ForkAwareThreadLock
+
 
 a = 1
 b =2
