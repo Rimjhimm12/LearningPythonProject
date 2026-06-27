@@ -66,8 +66,28 @@ list_of_vegetables.pop(2) #remove value depends on provided index
 print(list_of_vegetables)
 del list_of_vegetables[0] #remove item from the list
 print(list_of_vegetables)
-list_of_vegetables.clear() #remove all the items 
+clear_list_of_veggies = list_of_vegetables[:]# Or list_of_vegetables.copy() #or list(list_of_vegetables)
+print(clear_list_of_veggies)
+clear_list_of_veggies.clear() #remove all the items
+print(clear_list_of_veggies)
 print(list_of_vegetables)
+
+list1 = ["a",'b',"c"]
+list2 = [1, 2, 3, 4]
+list3 = list1 + list2
+print(list3)
+print("In different way")
+for i in range(len(list2)):
+    if list2[i] not in list1:
+        list1.append(list2[i])
+print(list1)
+print("In different way")
+for i in list2:
+    list1.append(i)
+print(list1)
+
+
+
 
 
 
