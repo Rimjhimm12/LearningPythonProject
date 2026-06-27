@@ -11,6 +11,7 @@ employee_data =["Rimjhim","30",130000.00,"Google.com"]
 print(my_list)
 print(fruit_list)
 print(employee_data)
+print(type(employee_data))
 
 #Accessing items from the list
 #Read the list items using loop
@@ -85,6 +86,9 @@ print("In different way")
 for i in list2:
     list1.append(i)
 print(list1)
+
+
+
 
 
 
