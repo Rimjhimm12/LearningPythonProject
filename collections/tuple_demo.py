@@ -29,6 +29,9 @@ print(my_tuple[::1])# full tuple
 print(my_tuple[::-1])# reverse tuple
 print(my_tuple[::-2])# 5,3,6,4,2
 
+n = my_tuple.count(2)
+print("count is : ",n)
+
 #We cannot modify the tuple's value --> it is immutable
 #we can convite tuple into list and vice versa
 my_list = list(my_tuple)
@@ -59,6 +62,7 @@ if tuple1 == tuple2:
     print("True")
 else:
     print("False")
+
 
 
 
