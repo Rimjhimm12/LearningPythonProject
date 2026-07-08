@@ -9,6 +9,7 @@
 fruits_set = {"apple", "banana", "cherry"}
 print(type(fruits_set)) #set
 
+
 #Accessing items from set
 print(fruits_set)#Entire set will be printed
 print("OR")
