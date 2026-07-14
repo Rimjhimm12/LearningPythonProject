@@ -1,3 +1,6 @@
+'''A leaderboard should always display scores in increasing order.
+
+* Duplicate scores are acceptable.'''
 import random
 
 score = [1,2,3,4,5,6]
