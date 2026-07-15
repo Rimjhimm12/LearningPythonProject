@@ -41,3 +41,4 @@ def func6(a, b, c):
 
 print(func6(1, 2, 3))
 print(type(func6(1, 2, 3)))
+
