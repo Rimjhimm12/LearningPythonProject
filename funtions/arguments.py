@@ -25,7 +25,7 @@ func4(roll=30,name ="Rimjhim")
 #Example 4: expositional and Keywords Argument
 def func5(a, b,c):
     print(a,b,c)
-func5(5,6,7) # expositional parameters
+func5(5,6,7) # positional parameters
 func5(a=5,b=6,c=7) #Keyword Parameters
 func5(b=6,a=5,c=7) #Keyword parameters: But jumble, The positions
 func5(5,6,c=7)
