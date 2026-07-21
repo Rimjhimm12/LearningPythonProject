@@ -9,5 +9,6 @@ class MyClass:
         print("Employee Name:", self.emp_name)
         print("Employee Salary:", self.emp_salary)
 
-mc = MyClass("10c001", "John", 50000)
-mc.display_emp_details()
+if __name__ == "__main__":
+    mc = MyClass("10c001", "John", 50000)
+    mc.display_emp_details()

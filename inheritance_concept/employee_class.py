@@ -7,9 +7,9 @@ class EmployeeB(EmployeeA):
         print("This is a method of Employee class B")
     def m1(self):
         print("This is a method of Employee class AB")
-
-obj1 = EmployeeB()
-obj1.m2()
-obj1.m1()
-obj2 = EmployeeA()
-obj2.m1()
+if __name__ == '__main__':
+    obj1 = EmployeeB()
+    obj1.m2()
+    obj1.m1()
+    obj2 = EmployeeA()
+    obj2.m1()
